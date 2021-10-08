@@ -11,7 +11,7 @@ password = "demo1234"
 print("Logging in...", end="")
 if(altoro.login(user, password)==False):
     print("False")
-    print("Error logging in... exiting")
+    print("Error logging in... exiting ")
     sys.exit(1)
 
 print("Successful")
