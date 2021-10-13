@@ -1,11 +1,11 @@
 import altoro_api as altoro
 import sys
-#import pickle
+import pickle
 import hashlib
 import os
 
-#user = "jsmith"
-#password = "demo1234"
+user = "jsmith"
+password = "demo1234"
 #(user,password) = altoro.readCredsFromConfig("config.txt")
 
 print("Logging in...", end="")
@@ -35,7 +35,7 @@ print("Writing Balances to File")
 
 #remove the old balance file
 #if(os.path.isfile("balances.txt")):
-if(altoro.file_exists("","balances.txt")):
+if(altoro.file_exists ("","balances.txt")):
     print("Removing old balance file")
     os.remove("balances.txt")
 balanceFile = open("balances.txt", "w")
