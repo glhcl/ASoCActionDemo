@@ -35,7 +35,7 @@ print("Writing Balances to File")
 
 #remove the old balance file
 #if(os.path.isfile("balances.txt")):
-if(altoro.file_exists("","balances.txt")):
+if(altoro.file_exists ("","balances.txt")):
     print("Removing old balance file")
     os.remove("balances.txt")
 balanceFile = open("balances.txt", "w")
