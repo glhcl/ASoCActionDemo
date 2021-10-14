@@ -1,7 +1,7 @@
 import altoro_api as altoro
 import sys
 #import pickle
-import pickle
+include pickle
 import hashlib
 import os
 
